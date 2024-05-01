@@ -1,0 +1,1 @@
+newman run TestingPractice.postman_collection.json -e APITestingPractice.postman_environment.json -r cli,junit,htmlextra --reporter-junit-export --reporter-htmlextra-export --reporter-htmlextra-browserTitle "Demo GSM" --reporter-htmlextra-title "GSM Test Results" --reporter-htmlextra-titleSize 14
